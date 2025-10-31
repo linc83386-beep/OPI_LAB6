@@ -13,8 +13,8 @@ int main()
 	cin >> u;
 
 	double product = 2.0;
-	for (int u = 5; u <= 15; u++) {
-		product *= log (u*Y);
+	for (int u = 2; u <= 15; u++) {
+		product *= log (u*y);
 	}
 	double A = sin(product);
 	cout << "A=" << A << endl;
